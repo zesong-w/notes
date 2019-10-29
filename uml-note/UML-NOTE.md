@@ -1,6 +1,6 @@
 # UML笔记
 ### 类之间的关系
-+ > ** $\color{red}{泛化关系}$**
++ > **泛化关系**
 对象之间耦合度最大的一种关系，是 is-a 的关系.表示类与类之间的继承关系，接口与接口之间的继承关系。一般化的关系是从子类指向父类的,每一个子类的实例都是父类的实例.泛化利用类的相似性和差异来组织类.例如:老虎是动物的一种,老虎既有动物的共性也有属于自己的特性.
 **表示方式:**从子类出发指向父的箭头表示，指向父的是一个空三角形.
 **表示图:** ![avatar][Generalization]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关系图泛化
