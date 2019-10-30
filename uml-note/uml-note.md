@@ -6,13 +6,11 @@
 一个字符串,表示类的名称.例如:Student,表示一个学生类.  
 2.属性(Attribute):  
 指类的特性，即类的成员变量.UML表示格式:    
-```[可见性]属性名:类型[=默认值]``` 
-例如:-name:String,表示一个name属性,类型是String.  
+```[可见性]属性名:类型[=默认值]```&nbsp;&nbsp;说明:-name:String,表示一个name属性,类型是String.  
 **注意：“可见性”表示该属性对类外的元素是否可见，包括公有（Public）、私有（Private）、受保护（Protected）和朋友（Friendly）4 种，在类图中分别用符号+、-、#、~表示。**  
 3.操作(Operations):  
 是类的任意一个实例对象都可以使用的行为，是类的成员方法。UML表示格式:  
-```[可见性]名称(参数列表)[:返回类型]```   
-例如：+display():void。表示一个display方法返回值是void.  
+```[可见性]名称(参数列表)[:返回类型]```&nbsp;&nbsp;说明：+display():void。表示一个display方法返回值是void.  
 4.示意图:  
 
 ### 类之间的关系
